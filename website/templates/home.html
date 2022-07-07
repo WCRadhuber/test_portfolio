@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<section class id="about">
+    <div class="row middle-xs"><span class="delete-row"></span>
+    <div class="col-xs-12 col-sm-6 col-lg-4">
+      <img id="selfie" src="{{ url_for('static', filename='images/hike.jpg') }}" alt="Photo of Will and friends">
+    </div>
+    <div class="col-lg-8 aboutme">
+      <h1>William C. Radhuber</h1>
+          <h3>DevOps Engineer</h3>
+</div>
+<div class="col-lg-12 center">
+          <p id="pad">About Me:</p>
+          <p>My name is William Radhuber, I am a former Brazilian Jiu Jitsu leader, manager, and instructor looking to transition into DevOps. My intrests include Web Development, Jiu Jitsu, and exploring the outdoors. I love making ideas come to life as well as connecting people using technology. I'm excited to make your company accessible to everyone. Feel free to use the sign up page to access the note app I created within this portfolio.</p>
+    </div> 
+    </div>
+</section>
+{% endblock %}

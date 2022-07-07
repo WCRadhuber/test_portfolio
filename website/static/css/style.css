@@ -1,0 +1,24 @@
+.background {
+    background-color: #f1f3f8;
+}
+
+#about{
+    margin-top: 100px;
+    text-align: center;
+    padding: 100px;
+}
+
+ #selfie {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.aboutme {
+    margin-top: 100px;
+}
+
+.center {
+    display: block;
+    text-align: center;
+}
